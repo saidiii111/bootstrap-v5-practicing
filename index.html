@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <div class="navbar navbar-expand-md bg-dark navbar-dark text-light">
+    <div class="navbar navbar-expand-md bg-dark navbar-dark text-light fixed-top">
         <div class="container">
             <a href="#" class="navbar-brand">Bootstrap Tutorial</a>
 
@@ -23,9 +23,18 @@
 
             <div class="collapse navbar-collapse" id="mainmenu">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a href="#intro" class="nav-link">Get Started</a></li>
-                    <li class="nav-item"><a href="#faq" class="nav-link">Ask Me</a></li>
-                    <li class="nav-item"><a href="#youtube" class="nav-link">Explore More</a></li>
+                    <li class="nav-item"><a href="#hero" class="nav-link">Get Started</a></li>
+                    <li class="nav-item"><a href="#features" class="nav-link">Features</a></li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Learn</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#learn" class="dropdown-item">Learn Bootstrap</a></li>
+                            <li><a href="#next" class="dropdown-item">Where to go next</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a href="#faq" class="nav-link">Ask Me</a>
+
+                    </li>
                 </ul>
             </div>
         </div>
@@ -50,13 +59,13 @@
 
     <!---   Services   -->
 
-    <section class="py-5">
+    <section class="py-5" id="features">
         <div class="container">
             <h2 class="text-center mb-4">
                 Features
             </h2>
             <div class="row text-center">
-                <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="col-md-6">
                     <div class="card bg-dark text-light mb-3">
                         <!--  <img src="https://picsum.photos/200/300/?blur" alt="" class="card-img-top"> -->
                         <div h1 mt-3>
@@ -70,7 +79,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="col-md-6">
                     <div class="card bg-dark text-light mb-3">
 
                         <div h1 mt-3>
@@ -84,7 +93,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="col-md-6">
                     <div class="card bg-dark text-light mb-3">
 
                         <div h1 mt-3>
